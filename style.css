@@ -4,13 +4,13 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #fef7f2; /* soft peach background */
+  color: #3d3d3d;
 }
 
 /* Header & Nav */
 header {
-  background-color: #1a1a1a;
+  background-color: #ffc6d0; /* pastel pink */
   padding: 15px 0;
 }
 
@@ -22,14 +22,14 @@ nav {
 }
 
 nav a {
-  color: #fff;
+  color: #5c3d57;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: #00bcd4;
+  color: #b76d8e; /* dusty rose */
 }
 
 /* Sections */
@@ -41,14 +41,14 @@ main {
 
 section {
   margin-bottom: 50px;
-  background: #ffffff;
+  background: #fff0f6; /* soft lilac-pink */
   padding: 25px;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
 h1, h2 {
-  color: #008cba;
+  color: #a2678a; /* dusty purple */
 }
 
 h1 {
@@ -61,31 +61,34 @@ img {
   border-radius: 50%;
   max-width: 150px;
   height: auto;
+  border: 3px solid #ffc6d0;
 }
 
 /* Buttons */
 button {
   padding: 10px 20px;
-  background-color: #008cba;
-  color: white;
+  background-color: #b8e0d2; /* pastel mint */
+  color: #37474f;
   border: none;
   border-radius: 6px;
   cursor: pointer;
   transition: background 0.3s ease;
   margin-top: 10px;
+  font-weight: bold;
 }
 
 button:hover {
-  background-color: #005f7a;
+  background-color: #a3d2ca;
 }
 
 /* Footer */
 footer {
-  background-color: #1a1a1a;
-  color: white;
+  background-color: #ffc6d0;
+  color: #5c3d57;
   text-align: center;
   padding: 15px 0;
   margin-top: 60px;
+  font-weight: 500;
 }
 
 /* Responsive Design */
