@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  @keyframes fadeInUp {
+@keyframes fadeInUp {
   0% {
     opacity: 0;
     transform: translateY(40px);
@@ -32,7 +28,10 @@
   100% { transform: translateY(0); }
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
 }
+
 
 body {
   font-family: 'Quicksand', sans-serif;
@@ -271,3 +270,4 @@ tr:hover {
     padding: 14px;
   }
 }
+
