@@ -6,18 +6,30 @@
   <title>Nurfarahin's Professional CV</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
 
   <header>
-    <nav>
-      <a href="#about">About Me</a>
-      <a href="#education">Education</a>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  <nav>
+    <a href="#about"><i class="fas fa-user"></i> About Me</a>
+    <a href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
+    <a href="#skills"><i class="fas fa-laptop-code"></i> Skills</a>
+    <a href="#projects"><i class="fas fa-folder-open"></i> Projects</a>
+
+    <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+  </nav>
+
+  
+  <div style="text-align: right; padding: 10px 30px;">
+    <button id="darkModeToggle" title="Toggle Dark Mode">
+  <i class="fas fa-moon"></i> Dark Mode
+</button>
+
+  </div>
+</header>
+
 
   <main>
     <section id="about">
@@ -34,26 +46,47 @@
       <h2>Education</h2>
       <ul>
         <li><strong>Universiti Teknologi PETRONAS (UTP)</strong> – CGPA: 3.69 (First Semester)</li>
-        <li><strong>University of Malaya (PASUM)</strong> – Foundation in Physical Science (2023–2024)</li>
-        <li><strong>SMK Dato’ Sulaiman</strong> – SPM: 9A’s (2022), Best Pemantun Award</li>
+        <li><strong>Universiti Malaya(PASUM)</strong> – Foundation in Physical Science (2023–2024)</li>
+        <li><strong>SMK Dato’ Sulaiman</strong> – SPM: 9A’s (2022)</li>
       </ul>
     </section>
 
     <section id="skills">
-      <h2>Technical & Soft Skills</h2>
-      <ul>
-        <li><strong>Programming Languages:</strong> Python, C++</li>
-        <li><strong>Tools:</strong> Git, VS Code, Canva</li>
-        <li><strong>Soft Skills:</strong> Public Speaking, Leadership, Critical Thinking</li>
-        <li><strong>Languages:</strong> English (Fluent), Malay (Native)</li>
-      </ul>
-    </section>
+  <h2>Technical & Soft Skills</h2>
+  <div class="skills-grid">
+  <div class="skill-card">
+    <i class="fas fa-code"></i>
+    <div><strong>Languages:</strong> Python, C++</div>
+  </div>
+  <div class="skill-card">
+    <i class="fas fa-tools"></i>
+    <div><strong>Tools:</strong> Git, VS Code, Canva</div>
+  </div>
+  <div class="skill-card">
+    <i class="fas fa-comments"></i>
+    <div><strong>Soft Skills:</strong> Public Speaking, Leadership</div>
+  </div>
+  <div class="skill-card">
+    <i class="fas fa-language"></i>
+    <div><strong>Languages:</strong> English(Fluent), Malay(Native)</div>
+  </div>
+</div>
 
-    <section id="experience">
+</section>
+
+
+    <section id="projects">
       <section id="achievements">
+        <h2>Experience & Projects</h2>
+      <div class="grid-projects">
+  <div><strong>EzGiG App Proposal:</strong> A freelance app idea for a class innovation project (2024)</div>
+  <div><strong>CV Website Project:</strong> This responsive site using HTML, CSS & JS</div>
+</div>
+
         <h2>Achievements & Leadership</h2>
 
         <h3>Pantun Competition Achievements</h3>
+        <div class="table-responsive">
         <table>
           <thead>
             <tr>
@@ -65,13 +98,14 @@
           </thead>
           <tbody>
             <tr><td>2025</td><td>KESUMA</td><td>National</td><td>Third Place</td></tr>
-            <tr><td>2025</td><td>GEMALA (UniSZA)</td><td>National</td><td>Participation</td></tr>
+            <tr><td>2025</td><td>GEMALA (UniSZA)</td><td>National</td><td>Third Place</td></tr>
             <tr><td>2025</td><td>SANTUN</td><td>National</td><td>Participation</td></tr>
-            <tr><td>2024</td><td>FANTASI (Asasi)</td><td>University</td><td>Participation, Best Pemantun (Final)</td></tr>
+            <tr><td>2024</td><td>FANTASI</td><td>Inter-University</td><td>Participation, Best Pemantun</td></tr>
             <tr><td>2022</td><td>Pesta Pantun Johor</td><td>State</td><td>Champion, Best Pemantun</td></tr>
-            <tr><td>2022</td><td>Pesta Pantun Batu Pahat</td><td>District</td><td>Champion</td></tr>
+            <tr><td>2022</td><td>Pesta Pantun Batu Pahat</td><td>District</td><td>Champion,Best Pemantun</td></tr>
           </tbody>
         </table>
+      </div>
 
         <h3>Leadership & Roles</h3>
         <ul>
@@ -81,35 +115,38 @@
           <li><strong>Sergeant – Kadet Polis (2022):</strong> Uniformed body responsibilities and team coordination</li>
         </ul>
       </section>
+     <button id="downloadBtn" title="Download my professional CV">
+  <i class="fas fa-download"></i> Download CV
+</button>
 
-      <h2>Experience & Projects</h2>
-      <ul>
-        <li><strong>Pantun Competitions:</strong> Champion, Best Pemantun, National & State Levels (2022–2025)</li>
-        <li><strong>Peer Mathematics Tutor:</strong> Helped schoolmates with SPM exam prep (2022)</li>
-        <li><strong>EzGiG App Proposal:</strong> Created a freelance app idea for a class innovation project (2024)</li>
-        <li><strong>Kadet Polis Sergeant:</strong> Discipline, leadership, and teamwork skills (2022)</li>
-        <li><strong>Digital Design:</strong> Owner of Mochidokidoki, a kawaii-themed digital brand</li>
-        <li><strong>CV Website Project:</strong> Built this responsive site using HTML, CSS & JS</li>
-      </ul>
-     <a href="cv.pdf" download="My_Professional_CV.pdf" title="Download my professional CV">
-  <button>Download CV</button>
-</a>
+
+
 
     </section>
 
     <section id="contact">
-      <h2>Contact Information</h2>
-      <p>Email: <a href="mailto:nurfarahin.afifah@gmail.com">nurfarahin.afifah@gmail.com</a></p>
-      <p>GitHub: <a href="https://github.com/ffyqvn" target="_blank">github.com/ffyqvn</a></p>
+  <h2>Contact Information</h2>
+  <p><i class="fas fa-envelope"></i> 
+    Email: <a href="mailto:nurfarahin.afifah@gmail.com">nurfarahin.afifah@gmail.com</a>
+  </p>
+  <p><i class="fab fa-github"></i> 
+    GitHub: <a href="https://github.com/ffyqvn" target="_blank">github.com/ffyqvn</a>
+  </p>
+  <p><i class="fab fa-linkedin"></i> 
+  LinkedIn: <a href="https://www.linkedin.com/in/ffyqvn" target="_blank">linkedin.com/in/ffyqvn</a>
+</p>
 
-    </section>
+</section>
+
   </main>
 
   <footer>
-    <p>© 2025 Nurfarahin Afifah binti Radzuan. All rights reserved.</p>
-  </footer>
+  <p><i class="far fa-copyright"></i> 2025 Nurfarahin Afifah binti Radzuan. All rights reserved.</p>
+</footer>
+
 
   <script src="script.js"></script>
-  <div id="toast">CV downloaded successfully!</div>
+  <div id="toast"><i class="fas fa-check-circle"></i> CV downloaded successfully!</div>
+
 </body>
 </html>
