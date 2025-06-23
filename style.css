@@ -339,23 +339,27 @@ tr:hover {
   }
 
   .skill-card {
-    flex-direction: column;
-    align-items: flex-start;
-    height: auto;
-    padding: 15px;
-    gap: 10px;
-  }
+  flex-direction: column;
+  align-items: flex-start;
+  height: auto !important;
+  min-height: auto !important;
+  padding: 12px;
+  gap: 8px;
+}
+
 
   .skill-card i {
-    margin-right: 0;
-    margin-bottom: 8px;
-  }
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+  margin-right: 0;
+}
 
-  .skill-card div {
-    width: 100%;
-    font-size: 0.95rem;
-    word-break: break-word;
-  }
+ .skill-card div {
+  font-size: 0.9rem;
+  word-break: break-word;
+}
+
+
 
   .table-responsive table {
     min-width: 500px;
